@@ -4,7 +4,7 @@ import {Title} from "./style.js";
 export default function Begin() {
     return (
         <div>
-            <Title>Begin</Title>
+            <Title>Hello World!</Title>
         </div>
     );
 }
