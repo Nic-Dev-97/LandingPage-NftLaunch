@@ -1,9 +1,10 @@
 import React from "react";
+import {Title} from "./style.js";
 
 export default function Begin() {
     return (
         <div>
-            <h1>Begin</h1>
+            <Title>Begin</Title>
         </div>
     );
 }
