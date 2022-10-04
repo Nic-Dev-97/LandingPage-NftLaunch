@@ -8,6 +8,7 @@ export default function Rotas() {
     return (
         
             <Routes>
+                
                 <Route path="/" element={< Begin/>} />
             </Routes>
         
