@@ -9,9 +9,9 @@ import Contact from "./pages/contact";
 function App() {
   return (
     <Router>
-      <Begin/>
-      <About/>
-      <Contact/>
+      <Begin />
+      <About />
+      <Contact />
     </Router>
   );
 }
