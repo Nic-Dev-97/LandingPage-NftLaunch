@@ -8,14 +8,16 @@ export const Title = styled.h1`
 
 export const Header = styled.div`
   width: auto;
-  height: 74px;
+  height: 5.3%;
   background: rgba(188, 18, 226, 0.22);
   text-align: center;
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+  padding-right: 2%;
+  padding-left: 2%;
 `;
 
 export const Body = styled.div`

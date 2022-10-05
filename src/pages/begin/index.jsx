@@ -5,7 +5,7 @@ export default function Begin() {
   return (
     <div>
       <Header>
-        <img src="" alt="Logo NFT" />
+        {/* <img src="" alt="Logo NFT" /> */}
         <a href="#">HOME</a>
         <a href="#">ABOUT</a>
         <a href="#">CONTACT</a>
