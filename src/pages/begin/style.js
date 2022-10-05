@@ -11,16 +11,25 @@ export const Header = styled.div`
   height: 5.3%;
   background: rgba(188, 18, 226, 0.22);
   text-align: center;
-  display: flex;
-  flex-flow: row nowrap;
+  display: grid;
+  grid-template-columns: 0.7fr 1fr 1fr 1fr;
   justify-content: space-between;
   padding-top: 1.5%;
   padding-bottom: 1.5%;
-  padding-right: 2%;
-  padding-left: 2%;
+  padding-right: 20%;
+  padding-left: 5%;
+  
+  img {
+    width: 30px;
+    height: 30px;
+  }
+
+
 `;
 
+
 export const Body = styled.div`
+
   background-image: url("Background-begin.svg");
   text-align: center;
   width: auto;
