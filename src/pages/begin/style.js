@@ -18,22 +18,26 @@ export const Header = styled.div`
   padding-bottom: 1.5%;
   padding-right: 20%;
   padding-left: 5%;
-  
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+
+  a {
+    text-decoration: none;
+  }
+
   img {
     width: 30px;
     height: 30px;
   }
-
-
 `;
 
-
 export const Body = styled.div`
-
   background-image: url("Background-begin.svg");
   text-align: center;
   width: auto;
   height: 938px;
   left: 0px;
   top: 0px;
+  font-family: "Oxanium", cursive;
+  padding-top: 32%;
 `;

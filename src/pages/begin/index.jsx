@@ -13,7 +13,7 @@ export default function Begin() {
       </Header>
       <div>
         <Body>
-          <h1>12:03:24</h1>
+          <h1>12   :   03   :   24</h1>
         </Body>
       </div>
     </div>
