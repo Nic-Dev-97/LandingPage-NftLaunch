@@ -5,7 +5,12 @@ import { Body } from "./style";
 export default function Contact() {
   return (
     <Body>
-      <h1>Contact</h1>
+      
+      <div>
+
+        <h1>Contact</h1>
+      </div>
+
     </Body>
   );
 }
