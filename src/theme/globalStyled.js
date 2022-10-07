@@ -8,7 +8,6 @@ border: 0;
 
 background: #030710;
 }
-
 `;
 
-export  default GlobalStyle;
+export default GlobalStyle;
