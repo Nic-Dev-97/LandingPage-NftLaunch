@@ -5,12 +5,12 @@ import { Body } from "./style";
 export default function Contact() {
   return (
     <Body>
-      
       <div>
-
-        <h1>Contact</h1>
+        <form action="#" method="get">
+          <input type="email" placeholder="exemple@email" name="email" />
+          <input type="submit" value="Submit"/>
+        </form>
       </div>
-
     </Body>
   );
 }
