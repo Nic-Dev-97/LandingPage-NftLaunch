@@ -1,12 +1,12 @@
 import React from "react";
-import { Header, Body } from "./style.js";
+import { Header, Body, Timer, Date, Name, Min } from "./style.js";
 
 export default function Begin() {
   return (
     <div>
       <Header>
         <div>
-        <img src="src\assets\Rectangle_22.png" alt="Logo" />
+          <img src="src\assets\Rectangle_22.png" alt="Logo" />
         </div>
         <div>
           <a href="#">HOME</a>
@@ -20,9 +20,24 @@ export default function Begin() {
       </Header>
       <div>
         <Body>
-          <div>
-            <h1>12 : 03 : 24</h1>
-          </div>
+          <Name>
+            <h1>NAME branding</h1>
+          </Name>
+          <Timer>
+            <h1>12</h1>
+            <h1>:</h1>
+            <h1>03</h1>
+            <h1>:</h1>
+            <h1>24</h1>
+            <h1>:</h1>
+            <h1>32</h1>
+          </Timer>
+          <Date>
+            <h1>Days</h1>
+            <h1>Hours</h1>
+            <Min>Minutes</Min>
+            <h1>Seconds</h1>
+          </Date>
         </Body>
       </div>
     </div>
