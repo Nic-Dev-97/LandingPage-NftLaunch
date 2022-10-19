@@ -1,16 +1,19 @@
 import React from "react";
 
-import { Body } from "./style";
+import { Body, Forms } from "./style";
 
 export default function Contact() {
   return (
-    <Body>
-      <div>
+    <Body id="contact">
+      <Forms>
         <form action="#" method="get">
-          <input type="email" placeholder="exemple@email" name="email" />
-          <input type="submit" value="Submit"/>
+          <label>Ready for the news?</label>
+          <input type="email" placeholder="exemple@email.com" name="email" />
+          <button type="submit" value="click" id="enviar">Subscribe</button>
         </form>
-      </div>
+      </Forms>
+      
+
     </Body>
   );
 }

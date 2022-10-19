@@ -3,7 +3,7 @@ import { Text, Title, Body, Img, Section } from "./style.js";
 
 export default function About() {
   return (
-    <Body>
+    <Body id="about">
       <Section>
           <Title>ABOUT</Title>
           <Text>

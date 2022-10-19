@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Header, Body, Timer, Date, Name, Min } from "./style.js";
 
 export default function Begin() {
@@ -12,10 +13,10 @@ export default function Begin() {
           <a href="#">HOME</a>
         </div>
         <div>
-          <a href="#">ABOUT</a>
+        <a href="#about">ABOUT</a>
         </div>
         <div>
-          <a href="#">CONTACT</a>
+          <a href="#contact">CONTACT</a>
         </div>
       </Header>
       <div>
@@ -23,7 +24,7 @@ export default function Begin() {
           <Name>
             <h1>NAME branding</h1>
           </Name>
-          <Timer>
+          <Timer> 
             <h1>12</h1>
             <h1>:</h1>
             <h1>03</h1>
