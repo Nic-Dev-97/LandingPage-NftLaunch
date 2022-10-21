@@ -8,9 +8,8 @@ export default function Rotas() {
     return (
         
             <Routes>
-                <Route exact path="/begin" element={< Begin />} />
-                <Route path="*" element={<h1>404 - Not Found</h1>} />
-                <Route path="/" element={<h1>404 - Not Found</h1>} />
+                
+                <Route path="/" element={< Begin/>} />
             </Routes>
         
     );

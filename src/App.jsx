@@ -1,12 +1,17 @@
 import React from "react";
 import { BrowserRouter as Router } from "react-router-dom";
+import About from "./pages/about";
+import Begin from "./pages/begin";
+import Contact from "./pages/contact";
 
-import Rotas from "./routes/routes";
+//import Rotas from "./routes/routes";
 
 function App() {
   return (
     <Router>
-      <Rotas />
+      <Begin/>
+      <About/>
+      <Contact/>
     </Router>
   );
 }
