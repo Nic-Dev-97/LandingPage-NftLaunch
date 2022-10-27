@@ -1,15 +1,21 @@
 import styled from "styled-components";
 
 export const Header = styled.div`
-  width: 100vw;
-  background: rgba(188, 18, 226, 0.22);
-  position: fixed;
   display: flex;
-  align-items: center;
   justify-content: space-evenly;
+  align-items: center;
+
+  width: 100vw;
+  height: 30px;
+  background: rgba(188, 18, 226, 0.22);
+
+  position: fixed;
+  
   font-family: "Poppins", sans-serif;
+  text-decoration: none;
 
   a {
+    
     text-decoration: none;
     color: #ffce4e;
   }
@@ -17,10 +23,10 @@ export const Header = styled.div`
   a.houver {
   }
 
-  /* img {
+  img {
     width: 30px;
     height: 30px;
-  } */
+  }
 `;
 
 export const Body = styled.div`
@@ -28,34 +34,52 @@ export const Body = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* font-family: "Oxanium", cursive; */
+  width: 100vw;
   height: 100vh;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Oxanium", cursive;
 `;
 
 export const Name = styled.div`
-  text-align: center;
-  // display: grid;
-  // font-size: 0.3rem;
-  // grid-template-columns: 0.5fr;
-  padding-bottom: 10%;
-  color: #ffffff;
+text-align: center;
+display: grid;
+grid-template-columns: 1.0fr;
+padding-bottom: 18%;
+color: #FFFFFF;
+
+
 `;
 
 export const Timer = styled.div`
-  // display: flex;
-
+  font-size: 110%;
+   
   color: #f5fbf2;
 
-  font-family: "Oxanium";
-  // font-size: 1rem;
+ font-family: 'Oxanium';
+  font-style: normal;
+  font-weight: 600;
+
 `;
 
 export const Date = styled.div`
-  // text-align: center;
+ display: flex;
+justify-content: center;
 
-  color: #a717e5;
+ h1{
+  padding-left: 2%;
+  padding-right: 2%;
+
+ }
+
+  color: #A717E5;
+
+  padding-top: 5%;
+  font-size: 60%;
+  
 `;
 
-// export const Min = styled.h1`
-//   padding-left: 22%;
-// `;

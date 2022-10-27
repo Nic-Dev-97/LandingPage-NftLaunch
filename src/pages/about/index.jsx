@@ -1,5 +1,6 @@
 import React from "react";
-import { Text, Title, Body, Section } from "./style.js";
+import { Text, Title, Body, Img, Section } from "./style.js";
+
 
 export default function About() {
   return (
@@ -17,9 +18,9 @@ export default function About() {
             nibh tincidunt, quis pellentesque lorem vulputate.
           </Text>
       </Section>
-      {/* <Img>
+      <Img>
         <img src="ObjetoAbout-rectangle.png" alt="aboutrectangle" />
-      </Img> */}
+      </Img>
     </Body>
   );
 }

@@ -5,8 +5,8 @@ export const Body = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  // width: auto;
-  height: 800px;
+  width: 100vw;
+  height: 100vh;
 `;
 
 export const Forms = styled.div`
@@ -15,17 +15,17 @@ export const Forms = styled.div`
 
   align-items: center;
 
-  height: 90vh;
+  height: 85vh;
 
   label {
-    // display: block;
+    display: block;
     padding-bottom: 5%;
     color: #f5fbf2;
     font-family: "Oxanium";
-    // text-align: center;
-    // font-style: normal;
+    text-align: center;
+    font-style: normal;
 
-    // font-size: 1.0rem;
+    font-size: 34px;
   }
 
   input {
@@ -33,35 +33,27 @@ export const Forms = styled.div`
     border: 1px solid #ffce4e;
     background-color: transparent;
     padding: 10px;
-    width: 50vw;
-    font-size: 0.3rem;
-    font-family: "Poppins";
+    width: 30vh;
+    font-size: 16px;
+    font-family: 'Poppins';
 
     color: #f5fbf2;
   }
 
-  button {
+  button{
     cursor: pointer;
     padding: 10px;
     box-sizing: border-box;
     border: 1px solid #ffce4e;
-    background: #ffce4e;
+    background: #FFCE4E;
     text-decoration-color: transparent;
-    font-size: 0.3rem;
-    font-family: "Poppins";
+    font-size: 16px;
+    font-family: 'Poppins';
   }
+
 `;
 
 export const Footer = styled.footer`
-  display: flex;
-  background-color: #1c121f;
-  // height: 20vh;
-  // width: 100vw;
-  // display: block;
-  // font-size: 0.3rem;
+  background-color: #ffce4e;
 
-  div {
-    border: solid red;
-    box-sizing: border-box;
-  }
 `;

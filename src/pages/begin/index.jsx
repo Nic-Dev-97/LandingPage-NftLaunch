@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Header, Body, Timer, Date, Name, Min } from "./style.js";
+import { Header, Body, Timer, Date, Name } from "./style.js";
+
+
 
 export default function Begin() {
   return (
@@ -25,18 +27,12 @@ export default function Begin() {
             <h1>NAME branding</h1>
           </Name>
           <Timer> 
-            <h1>12</h1>
-            <h1>:</h1>
-            <h1>03</h1>
-            <h1>:</h1>
-            <h1>24</h1>
-            <h1>:</h1>
-            <h1>32</h1>
+            <h1> 12 : 03 : 24 : 32</h1>
           </Timer>
           <Date>
             <h1>Days</h1>
             <h1>Hours</h1>
-            <Min>Minutes</Min>
+            <h1>Minutes</h1>
             <h1>Seconds</h1>
           </Date>
         </Body>

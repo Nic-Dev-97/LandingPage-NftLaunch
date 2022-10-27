@@ -5,39 +5,43 @@ export const Body = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  // width: 100vw;
-  // height: 698px;
-
-  // align-items: center;
-  // grid-template-columns: 2fr 2fr;
-  // justify-items: center;
+  width: 100%;
+  height: 650px;
+  display: grid;
+  align-items: center;
+  grid-template-columns: 2fr;
+  justify-items: center;
 `;
 
 export const Section = styled.section`
-padding-left: 20%;
+/* padding-left: 20%; */
 
 `;
 
 export const Text = styled.p`
-// display: grid;
-// grid-template-columns: 0.5fr;
-
-// padding-top: 0.5rem;
-// font-size: 0.2rem;
-color: #F5FBF2;
-// font-family: Poppins;
+  padding-top: 20px;
+  color: #F5FBF2;
+  font-family: Poppins;
+  font-size: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: justify;
  
 `;
 
 export const Title = styled.h1`
 color: #F5FBF2;
 font-family: Poppins;
+text-align: center;
 
 `;
 
 export const Img = styled.div`
-padding-right: 10%;
-// max-width: 85%;
-// max-height: 5%; 
+   /* padding-bottom: 10%; */
+
+   img {
+    width: 80vw;
+    height: 30vh;
+  }
 
 `;
