@@ -64,7 +64,7 @@ export const Body = styled.div`
 export const Name = styled.div`
   display: grid;
   grid-template-columns: 1.0fr;
-  padding: 5%;
+
 
   color: #ffffff;
 `;
