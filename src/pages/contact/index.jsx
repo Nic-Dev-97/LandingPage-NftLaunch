@@ -15,15 +15,18 @@ export default function Contact() {
         </form>
       </Forms>
       <Footer>
-        <div>
+        {/* <div>
           <img scr="Rectangle_22.png" />
-        </div>
+        </div> */}
 
         <div>
-          <p>
+          <span>
             Nec, enim sed lacus, magna pharetra. Phasellus tincidunt nulla
             pharetra gravida est.
-          </p>
+          </span>
+        </div>
+
+        <div>          
           <a href="https://www.facebook.com/">
             <img src="src\assets\facebook.png" alt="facebook" />
           </a>

@@ -1,8 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Header, Body, Timer, Date, Name } from "./style.js";
 
-
+import CountdownTimer from "../../Components/CountdownTimer";
 
 export default function Begin() {
   return (
@@ -11,23 +10,28 @@ export default function Begin() {
         <div>
           <img src="src\assets\Rectangle_22.png" alt="Logo" />
         </div>
-        <div>
+
+        <div class="line">
           <a href="#">HOME</a>
         </div>
-        <div>
-        <a href="#about">ABOUT</a>
+        <div class="line">
+          <a href="#about">ABOUT</a>
         </div>
-        <div>
+        <div class="line">
           <a href="#contact">CONTACT</a>
         </div>
       </Header>
       <div>
         <Body>
           <Name>
-            <h1>NAME branding</h1>
+            <div class="efect">
+              <span>NAME Branding</span>
+              <span>NAME Branding</span>
+              <span>NAME Branding</span>
+            </div>
           </Name>
-          <Timer> 
-            <h1> 12 : 03 : 24 : 32</h1>
+          <Timer>
+            <CountdownTimer />
           </Timer>
           <Date>
             <h1>Days</h1>
@@ -40,3 +44,4 @@ export default function Begin() {
     </div>
   );
 }
+
