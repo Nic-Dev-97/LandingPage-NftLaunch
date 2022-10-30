@@ -25,35 +25,65 @@ export const Forms = styled.div`
     text-align: center;
     font-style: normal;
 
-    font-size: 34px;
+    font-size: 1.5rem;
   }
 
   input {
     box-sizing: border-box;
     border: 1px solid #ffce4e;
     background-color: transparent;
-    padding: 10px;
+    padding: 8px;
     width: 30vh;
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Poppins';
 
     color: #f5fbf2;
   }
 
+  input:focus {
+    outline: solid 1px #ffce4e;
+    box-shadow: 0 0 15px  #ffce4e;
+    transition: 0.2s;
+    
+  }
+
   button{
     cursor: pointer;
-    padding: 10px;
+    padding: 8px;
     box-sizing: border-box;
     border: 1px solid #ffce4e;
     background: #FFCE4E;
     text-decoration-color: transparent;
-    font-size: 16px;
+    font-size: 12px;
     font-family: 'Poppins';
   }
 
 `;
 
 export const Footer = styled.footer`
-  background-color: #ffce4e;
+  background-color: #1C121F;
+  padding: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #F5FBF2;
+  
+
+  span{
+    color: #96839B;
+  }
+  
+  a{
+    color: #96839B;
+    text-align: center;
+    padding: 2%;
+  }
+
+  p{
+    color: #96839B;
+    display: flex;
+    justify-content: center;
+  }
+
 
 `;

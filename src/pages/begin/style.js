@@ -6,7 +6,7 @@ export const Header = styled.div`
   align-items: center;
 
   width: 100vw;
-  height: 40px;
+  height: 2.4rem;
   background: rgba(188, 18, 226, 0.22);
 
   position: fixed;
@@ -15,6 +15,7 @@ export const Header = styled.div`
 
   a {
     color: #ffce4e;
+    font-size: 0.8rem;
     text-decoration: none;
   }
 
@@ -62,11 +63,47 @@ export const Body = styled.div`
 `;
 
 export const Name = styled.div`
-  display: grid;
-  grid-template-columns: 1.0fr;
+ 
+ .efect {
+   color: #ffffff;
+   display: grid;
+   grid-template-columns: 1fr;
+   text-align: center;
+  }
+  
+  .efect span {
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    font-size: 2rem;
+    animation: glitch 2s ease infinite 5s alternate-reverse;
+  }
+  
+  @keyframes glitch {
+    0% {
+      text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+      transform: translate(var(--glitch-translate));
+    }
+    2% {
+      text-shadow: 4px -3px 0 red, -6px 4px 0 blue;
+    }
+    4%,
+    
+    100% {
+      text-shadow: none;
+      transform: none;
+      
+    }
+    
+  }
 
+  .efect span:nth-child(odd) {
+    --glitch-translate: 15px;
+  }
+  .efect span:nth-child(even) {
+    --glitch-translate: -15px;
+  }
 
-  color: #ffffff;
 `;
 
 export const Timer = styled.div`
@@ -74,6 +111,8 @@ export const Timer = styled.div`
   color: #f5fbf2;
   font-family: 'Oxanium';
   padding-top: 5%;
+ 
+
 `;
 
 export const Date = styled.div`
@@ -87,5 +126,5 @@ export const Date = styled.div`
 
   color: #a717e5;
 
-  font-size: 60%;
+  font-size: 0.5rem;
 `;
