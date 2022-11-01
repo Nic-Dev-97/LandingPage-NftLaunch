@@ -63,15 +63,27 @@ export const Body = styled.div`
 `;
 
 export const Name = styled.div`
- 
- .efect {
-   color: #ffffff;
-   display: grid;
-   grid-template-columns: 1fr;
-   text-align: center;
-  }
-  
+
+@media (min-width: 768px) {
   .efect span {
+    
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    font-size: 1rem;
+  }
+
+}  
+
+.efect {
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: 1fr;
+  text-align: center;
+    
+}
+
+.efect span {
     font-weight: bold;
     grid-row-start: 1;
     grid-column-start: 1;
@@ -127,4 +139,11 @@ export const Date = styled.div`
   color: #a717e5;
 
   font-size: 0.5rem;
+
+  /* @media (min-width: 1000px) {
+  Date {
+    font-size: 10rem;
+  } */
+
+/* } */
 `;
