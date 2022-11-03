@@ -32,12 +32,12 @@ export default function Begin() {
           <Timer>
             <Counter />
           </Timer>
-          <Date>
+          {/* <Date>
             <h1>Days</h1>
             <h1>Hours</h1>
             <h1>Minutes</h1>
             <h1>Seconds</h1>
-          </Date>
+          </Date> */}
         </Body>
       </div>
     </div>

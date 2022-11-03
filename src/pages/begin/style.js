@@ -63,6 +63,7 @@ export const Body = styled.div`
 `;
 
 export const Name = styled.div`
+padding-bottom: 2%;
 
 @media (min-width: 768px) {
   .efect span {
@@ -71,6 +72,7 @@ export const Name = styled.div`
     grid-row-start: 1;
     grid-column-start: 1;
     font-size: 1rem;
+    
   }
 
 }  
@@ -87,7 +89,7 @@ export const Name = styled.div`
     font-weight: bold;
     grid-row-start: 1;
     grid-column-start: 1;
-    font-size: 2rem;
+    font-size: 3rem;
     animation: glitch 2s ease infinite 5s alternate-reverse;
   }
   
@@ -124,13 +126,15 @@ export const Timer = styled.div`
   
   color: #f5fbf2;
   font-family: 'Oxanium';
-  padding-top: 5%;
- 
-`;
+  /* padding-top: 5%; */
+  
+  `;
 
 export const Date = styled.div`
   display: flex;
   justify-content: center;
+  padding-bottom: 13%;
+  padding-top: 6%;
 
   h1 {
     padding-left: 3%;
@@ -144,7 +148,7 @@ export const Date = styled.div`
   /* @media (min-width: 1000px) {
   Date {
     font-size: 10rem;
-  } */
+  } 
 
-/* } */
+} */
 `;
