@@ -119,12 +119,13 @@ export const Name = styled.div`
 `;
 
 export const Timer = styled.div`
-  font-size: 1.0rem;
+  font-size: 2.0rem;
+  display: flex;
+  
   color: #f5fbf2;
   font-family: 'Oxanium';
   padding-top: 5%;
  
-
 `;
 
 export const Date = styled.div`
