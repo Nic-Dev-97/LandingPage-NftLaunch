@@ -1,7 +1,6 @@
 import React from "react";
 import { Header, Body, Timer, Date, Name } from "./style.js";
-
-import CountdownTimer from "../../Components/CountdownTimer";
+import { Counter } from "../../Components/Counter";
 
 export default function Begin() {
   return (
@@ -31,17 +30,16 @@ export default function Begin() {
             </div>
           </Name>
           <Timer>
-            <CountdownTimer />
+            <Counter />
           </Timer>
-          <Date>
+          {/* <Date>
             <h1>Days</h1>
             <h1>Hours</h1>
             <h1>Minutes</h1>
             <h1>Seconds</h1>
-          </Date>
+          </Date> */}
         </Body>
       </div>
     </div>
   );
 }
-

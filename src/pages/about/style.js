@@ -5,8 +5,8 @@ export const Body = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  width: 100%;
-  height: 650px;
+  width: 100vw;
+  height: 100vh;
   display: grid;
   align-items: center;
   grid-template-columns: 2fr;
@@ -37,11 +37,26 @@ text-align: center;
 `;
 
 export const Img = styled.div`
-   /* padding-bottom: 10%; */
 
    img {
     width: 80vw;
-    height: 30vh;
+    height: 50vh;
   }
+
+  @media (min-width: 1000px) {
+  Img {
+    height: 60vh;
+    width: 70vw;
+    
+  }
+}
+
+@media (max-width: 480px) {
+  Img {
+    height: 45vh;
+    width: 85vw;
+    
+  }
+}
 
 `;
