@@ -6,7 +6,7 @@ A composição inicial do site apresenta um "timer" com contagem regressiva para
 Criado do zero trabalhando em equipe para alcançar algo moderno e capaz de cumprir o objetivo.
 
 ## Tecnologias
-React, TypeScript.
+React, Javascript.
 
 ## Visualização do prototipo
 https://landingpage-nft-launch.vercel.app/
